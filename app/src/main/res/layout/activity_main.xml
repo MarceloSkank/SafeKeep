@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.marcelojanke.myapplication.MainActivity">
+
+    <Button
+        android:id="@+id/btnMapa"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="32dp"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/holo_blue_dark"
+        android:text="Mapa"
+        app:layout_constraintBottom_toTopOf="@+id/btnContato"
+
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.44"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btnContato"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="76dp"
+        android:background="@android:color/holo_blue_dark"
+        android:text="Contatos"
+        app:layout_constraintBottom_toTopOf="@+id/btnFudeu"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btnFudeu"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/holo_blue_dark"
+        android:text="Socorro!!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnMapa"
+        app:layout_constraintVertical_bias="0.969"
+        tools:ignore="HardcodedText" />
+
+</android.support.constraint.ConstraintLayout>
