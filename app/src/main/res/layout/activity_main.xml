@@ -11,6 +11,7 @@
     <Button
         android:id="@+id/btnMapa"
         android:layout_width="300dp"
+        android:onClick="Web"
         android:layout_height="100dp"
         android:layout_marginBottom="32dp"
         android:layout_marginTop="8dp"

@@ -23,21 +23,14 @@ public class MainActivity extends AppCompatActivity {
         getSupportActionBar().hide();
 
 
-        BtnMapa = (Button) findViewById(R.id.btnMapa);
 
-
-        BtnMapa.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Context contexto = getApplicationContext();
-                CharSequence string = "Evento Aplicado";
-                int duracao = Toast.LENGTH_SHORT;
-                Toast toast = Toast.makeText(contexto,string,duracao);
-                toast.show();
-
-            }
-        });
     }
+    public void Web(View view){
+        Mapa.tipoNavegador = Mapa.Tipo.Mapa;
+        Intent i = new Intent(this,Mapa.class);
+        startActivity(i);
+    }
+
 
 
     public void SendMessage(View view) {

@@ -13,5 +13,7 @@ public class Contato extends AppCompatActivity {
         setContentView(R.layout.activity_contato);
         getSupportActionBar().hide();
 
+
+
     }
 }
