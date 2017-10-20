@@ -7,3 +7,11 @@
 /build
 /captures
 .externalNativeBuild
+app/libs/
+app/src/debug/
+app/src/main/assets/
+app/src/main/res/Font/
+app/src/main/res/drawable/
+app/src/main/res/layout-en-rBR/
+app/src/main/res/sds/
+bla/
