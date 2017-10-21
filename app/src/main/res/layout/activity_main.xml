@@ -30,7 +30,7 @@
         android:layout_width="300dp"
         android:layout_height="100dp"
 
-        android:layout_marginBottom="102dp"
+        android:layout_marginBottom="64dp"
         android:background="@android:color/holo_blue_dark"
         android:text="Contatos"
         app:layout_constraintBottom_toTopOf="@+id/btnFudeu"
