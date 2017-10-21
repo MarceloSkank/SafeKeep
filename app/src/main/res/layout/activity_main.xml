@@ -29,7 +29,7 @@
         android:id="@+id/btnContato"
         android:layout_width="300dp"
         android:layout_height="100dp"
-        android:onClick="SendMessage"
+
         android:layout_marginBottom="102dp"
         android:background="@android:color/holo_blue_dark"
         android:text="Contatos"
@@ -43,6 +43,7 @@
         android:layout_width="300dp"
         android:layout_height="100dp"
         android:layout_marginBottom="8dp"
+        android:onClick="SendMessage"
         android:layout_marginTop="8dp"
         android:background="@android:color/holo_blue_dark"
         android:text="Socorro!!"

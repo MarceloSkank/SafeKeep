@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     public void SendMessage(View view) {
-        Intent i = new Intent(this,Contato.class);
+        Intent i = new Intent(this,Socorro.class);
         startActivity(i);
     }
 }
