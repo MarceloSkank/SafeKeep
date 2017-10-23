@@ -35,7 +35,7 @@ public class Mapa extends AppCompatActivity {
                 webView.loadUrl("https://www.facebook.com");
                 break;
             case Contato:
-                webView.loadUrl("https://www.facebook.com");
+                webView.loadUrl("https://youtube.com");
                 break;
         }
         webSettings.setJavaScriptEnabled(true);

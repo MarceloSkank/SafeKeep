@@ -1,7 +1,9 @@
 package com.example.marcelojanke.myapplication;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 import android.view.WindowManager;
 
 public class Socorro extends AppCompatActivity {
@@ -13,7 +15,12 @@ public class Socorro extends AppCompatActivity {
         setContentView(R.layout.activity_contato);
         getSupportActionBar().hide();
 
-
-
     }
+
+    public void Blue(View view){
+        Intent i = new Intent(this,Blue.class);
+        startActivity(i);
+    }
+
+
 }

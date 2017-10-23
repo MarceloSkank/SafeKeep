@@ -6,4 +6,47 @@
     android:layout_height="match_parent"
     tools:context="com.example.marcelojanke.myapplication.Socorro">
 
+    <Button
+        android:id="@+id/btnMapa"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="32dp"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/holo_blue_dark"
+        android:text="Mapa"
+        app:layout_constraintBottom_toTopOf="@+id/btnContato"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.407"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btnContato"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+
+        android:layout_marginBottom="83dp"
+        android:background="@android:color/holo_blue_dark"
+        android:text="Contatos"
+        app:layout_constraintBottom_toTopOf="@+id/btnFudeu"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btnFudeu"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/holo_blue_dark"
+        android:text="Socorro!!"
+        android:onClick="Blue"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnMapa"
+        app:layout_constraintVertical_bias="0.804"
+        tools:ignore="HardcodedText" />
 </android.support.constraint.ConstraintLayout>
